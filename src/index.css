@@ -13,6 +13,12 @@ code {
 }
 
 
-td {
-  background-color: lightcoral;
+
+.hi {
+  color: lightblue;
+  font-family: Bradley , cursive;
+  background-color: darkcyan;
+}
+.hi2 {
+  outline: solid white 2px;
 }

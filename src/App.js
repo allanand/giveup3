@@ -13,14 +13,15 @@ function Library() {
   }
   getBooks();
   return (
-    <table>
+    
+    <table class='hi'>
       {
         myBooks.map(b => (
           <tr>
-            <td>{b.title}</td>
-            <td>{b.author}</td>
-            <td>{b.isbn}</td>
-            <td>{b.description}</td>
+            <td class='hi2'>{b.title}</td>
+            <td class='hi2'>{b.author}</td>
+            <td class='hi2'>{b.isbn}</td>
+            <td class='hi2'>{b.description}</td>
           </tr>
         ))
     }
